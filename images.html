@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gallery</title>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 10 auto;
+    }
+
+    image {
+        flex-basis: calc(25% - 10px);
+        margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 992px) {
+        image {
+            flex-basis: calc(30% - 10px);
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        image {
+            flex-basis: calc(100% - 10px);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.internationaltravelto.com/wp-content/uploads/2015/01/laos.jpg" alt="Image 1" width="400" hieght="300">
+        <img src="http://foundtheworld.com/wp-content/uploads/2014/06/Goa-1.gif" alt="Image 2" width="400" hieght="300">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.bkw3gjZF18LBQZmFP5h3OgHaEg&pid=Api&P=0&h=220" alt="Image 3" width="400" hieght="300">
+        <img src="https://tse2.explicit.bing.net/th?id=OIP.1g_PjPkuToYML-RxxLgcWgHaHa&pid=Api&P=0&h=220" alt="Image 4" width="400" hieght="300">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.VEsQqc9x09LVd1b__c144AHaEs&pid=Api&P=0&h=220" alt="Image 5" width="400" hieght="300">
+        <img src="https://cdn.getyourguide.com/img/location/540dc8b3d23da-m1409922156.jpg/88.jpg" alt="Image 6" width="400" hieght="300">
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/Thrisshur-est-places-kerala-refurnb73673.jpg" alt="Image 7" width="400" hieght="300">
+        <img src="https://1.bp.blogspot.com/-NnGj3KZEcM4/XstJQEKiS0I/AAAAAAAAATg/uSuj0IJlKpMwXBHcp7WmUBDaM4lFvEPWwCLcBGAsYHQ/s1600/925752823s.jpg" alt="Image 8" width="400" hieght="300">
+        <img src="https://tse1.mm.bing.net/th?id=OIP._XBWCCiv8ekxugbHOZRB2AHaEK&pid=Api&P=0&h=220" alt="Image 9" width="400" hieght="300">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.b2UHquNeMVNPKQxL7fGjVQHaE7&pid=Api&P=0&h=220" alt="Image 10" width="400" hieght="300">
+    </div>
+</body>
+</html>
